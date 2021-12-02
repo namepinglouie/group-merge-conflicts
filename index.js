@@ -1,13 +1,15 @@
-// This is Ping's comment!!!
-function fn(...c) {
+function tabs(...c) {
     if (!c.every((a) => Number.isNumber(a)))
+    // This is Ping's comment!!!
       throw "All arguments must be numbers.";
-    return c.reduce((a, b) => a + b);
+    return cee.reduce((ay, bee) => ay + bee);
   }
   
-  fn(1, 2, 3); //> 6
-  fn(10, "B", 20); //> error All arguments must be numbers.
-  
+  tabs(1, 2, 3); //> 6
+  tabs(10, "B", 20); //> error All arguments must be numbers.
+
+  console.log("Jenna is taking a nap.")
+   
   // Ping's new function
   function displayHappy(name) {
       return `${name} is soooo HAPPY!!!!!`;
@@ -17,4 +19,7 @@ function fn(...c) {
   displayHappy("Christina");
   displayHappy("Jenna");
 
+
   // I created a branch name to see difference and made a comment
+
+
