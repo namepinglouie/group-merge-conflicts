@@ -1,12 +1,15 @@
-// This is Ping's comment!!!
-function fn(...c) {
-    if (!c.every((a) => Number.isNumber(a)))
+function fn(...cee) {
+    if (!cee.every((ay) => Number.isNumber(ay)))
+    // This is Ping's comment!!!
       throw "All arguments must be numbers.";
-    return c.reduce((a, b) => a + b);
+    return cee.reduce((ay, bee) => ay + bee);
   }
   
   fn(1, 2, 3); //> 6
   fn(10, "B", 20); //> error All arguments must be numbers.
+
+  console.log("Jenna is taking a nap.")
+  
   
   // Ping's new function
   function displayHappy(name) {
